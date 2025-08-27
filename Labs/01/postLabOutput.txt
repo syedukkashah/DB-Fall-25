@@ -314,5 +314,6 @@ EMPLOYEE_ID FIRST_NAME           LAST_NAME                 EMAIL                
 
 Q19 Output:
 no rows selected
-20 Output:
+Q20 Output:
 no rows selected
+

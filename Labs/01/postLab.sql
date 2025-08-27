@@ -30,6 +30,7 @@ select * from employees where department_id in (10,20,30) and department_id <> 4
 prompt Q19 Output:
 select * from employees where salary < (select min(salary) from employees where department_id = 50);
 --Q20
-prompt 20 Output:
+prompt Q20 Output:
 select * from employees where salary > (select max(salary) from employees where department_id = 90);
+
 spool off

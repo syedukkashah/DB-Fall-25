@@ -1,0 +1,372 @@
+Q1 Output:
+
+SUM(SALARY)
+-----------
+     691416
+
+Q2 Output:
+
+AVG(SALARY)
+-----------
+ 6461.83178
+
+Q3 Output:
+
+MANAGER_ID EMPLOYEE_COUNT
+---------- --------------
+                        1
+       100             14
+       123              8
+       120              8
+       121              8
+       147              6
+       108              5
+       148              6
+       149              6
+       205              1
+       102              1
+
+MANAGER_ID EMPLOYEE_COUNT
+---------- --------------
+       201              1
+       101              5
+       114              5
+       124              8
+       145              6
+       146              6
+       103              4
+       122              8
+
+19 rows selected. 
+
+Q4 Output:
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                 EMAIL                     PHONE_NUMBER         HIRE_DATE JOB_ID         SALARY COMMISSION_PCT MANAGER_ID DEPARTMENT_ID
+----------- -------------------- ------------------------- ------------------------- -------------------- --------- ---------- ---------- -------------- ---------- -------------
+        132 TJ                   Olson                     TJOLSON                   650.124.8234         10-APR-07 ST_CLERK         2100                       121            50
+
+Q5 Output:
+
+SYSDATE  
+---------
+05-SEP-25
+
+Q6 Output:
+
+CURRENT_DATE                                                                  
+------------------------------------------------------------------------------
+FRIDAY    SEPTEMBER 2025
+
+Q7 Output:
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                 EMAIL                     PHONE_NUMBER         HIRE_DATE JOB_ID         SALARY COMMISSION_PCT MANAGER_ID DEPARTMENT_ID
+----------- -------------------- ------------------------- ------------------------- -------------------- --------- ---------- ---------- -------------- ---------- -------------
+        101 Neena                Kochhar                   NKOCHHAR                  515.123.4568         21-SEP-05 AD_VP           17000                       100            90
+        107 Diana                Lorentz                   DLORENTZ                  590.423.5567         07-FEB-07 IT_PROG          4200                       103            60
+        110 John                 Chen                      JCHEN                     515.124.4269         28-SEP-05 FI_ACCOUNT       8200                       108           100
+        118 Guy                  Himuro                    GHIMURO                   515.127.4565         15-NOV-06 PU_CLERK         2600                       114            30
+        131 James                Marlow                    JAMRLOW                   650.124.7234         16-FEB-05 ST_CLERK         2500                       121            50
+        135 Ki                   Gee                       KGEE                      650.127.1734         12-DEC-07 ST_CLERK         2400                       122            50
+        136 Hazel                Philtanker                HPHILTAN                  650.127.1634         06-FEB-08 ST_CLERK         2200                       122            50
+        138 Stephen              Stiles                    SSTILES                   650.121.2034         26-OCT-05 ST_CLERK         3200                       123            50
+        143 Randall              Matos                     RMATOS                    650.121.2874         15-MAR-06 ST_CLERK         2600                       124            50
+        146 Karen                Partners                  KPARTNER                  011.44.1344.467268   05-JAN-05 SA_MAN          13500             .3        100            80
+        187 Anthony              Cabrio                    ACABRIO                   650.509.4876         07-FEB-07 SH_CLERK         3000                       121            50
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                 EMAIL                     PHONE_NUMBER         HIRE_DATE JOB_ID         SALARY COMMISSION_PCT MANAGER_ID DEPARTMENT_ID
+----------- -------------------- ------------------------- ------------------------- -------------------- --------- ---------- ---------- -------------- ---------- -------------
+        191 Randall              Perkins                   RPERKINS                  650.505.4876         19-DEC-07 SH_CLERK         2500                       122            50
+        192 Sarah                Bell                      SBELL                     650.501.1876         04-FEB-04 SH_CLERK         4000                       123            50
+        200 Jennifer             Whalen                    JWHALEN                   515.123.4444         17-SEP-03 AD_ASST          4400                       101            10
+        202 Pat                  Fay                       PFAY                      603.123.6666         17-AUG-05 MK_REP           6000                       201            20
+
+15 rows selected. 
+
+Q8 Output:
+
+MONTHS_BETWEEN
+--------------
+             3
+
+Q9 Output:
+
+EMPLOYEE_ID FIRST_NAME           HIRE_DATE MONTHS_WORKED
+----------- -------------------- --------- -------------
+        100 Steven               17-JUN-03           266
+        101 Neena                21-SEP-05           239
+        102 Lex                  13-JAN-01           295
+        103 Alexander            03-JAN-06           236
+        104 Bruce                21-MAY-07           219
+        105 David                25-JUN-05           242
+        106 Valli                05-FEB-06           235
+        107 Diana                07-FEB-07           222
+        108 Nancy                17-AUG-02           276
+        109 Daniel               16-AUG-02           276
+        110 John                 28-SEP-05           239
+
+EMPLOYEE_ID FIRST_NAME           HIRE_DATE MONTHS_WORKED
+----------- -------------------- --------- -------------
+        111 Ismael               30-SEP-05           239
+        112 Jose Manuel          07-MAR-06           233
+        113 Luis                 07-DEC-07           212
+        114 Den                  07-DEC-02           272
+        115 Alexander            18-MAY-03           267
+        116 Shelli               24-DEC-05           236
+        117 Sigal                24-JUL-05           241
+        118 Guy                  15-NOV-06           225
+        119 Karen                10-AUG-07           216
+        120 Matthew              18-JUL-04           253
+        121 Adam                 10-APR-05           244
+
+EMPLOYEE_ID FIRST_NAME           HIRE_DATE MONTHS_WORKED
+----------- -------------------- --------- -------------
+        122 Payam                01-MAY-03           268
+        123 Shanta               10-OCT-05           238
+        124 Kevin                16-NOV-07           213
+        125 Julia                16-JUL-05           241
+        126 Irene                28-SEP-06           227
+        127 James                14-JAN-07           223
+        128 Steven               08-MAR-08           209
+        129 Laura                20-AUG-05           240
+        130 Mozhe                30-OCT-05           238
+        131 James                16-FEB-05           246
+        132 TJ                   10-APR-07           220
+
+EMPLOYEE_ID FIRST_NAME           HIRE_DATE MONTHS_WORKED
+----------- -------------------- --------- -------------
+        133 Jason                14-JUN-04           254
+        134 Michael              26-AUG-06           228
+        135 Ki                   12-DEC-07           212
+        136 Hazel                06-FEB-08           210
+        137 Renske               14-JUL-03           265
+        138 Stephen              26-OCT-05           238
+        139 John                 12-FEB-06           234
+        140 Joshua               06-APR-06           232
+        141 Trenna               17-OCT-03           262
+        142 Curtis               29-JAN-05           247
+        143 Randall              15-MAR-06           233
+
+EMPLOYEE_ID FIRST_NAME           HIRE_DATE MONTHS_WORKED
+----------- -------------------- --------- -------------
+        144 Peter                09-JUL-06           229
+        145 John                 01-OCT-04           251
+        146 Karen                05-JAN-05           248
+        147 Alberto              10-MAR-05           245
+        148 Gerald               15-OCT-07           214
+        149 Eleni                29-JAN-08           211
+        150 Peter                30-JAN-05           247
+        151 David                24-MAR-05           245
+        152 Peter                20-AUG-05           240
+        153 Christopher          30-MAR-06           233
+        154 Nanette              09-DEC-06           224
+
+EMPLOYEE_ID FIRST_NAME           HIRE_DATE MONTHS_WORKED
+----------- -------------------- --------- -------------
+        155 Oliver               23-NOV-07           213
+        156 Janette              30-JAN-04           259
+        157 Patrick              04-MAR-04           258
+        158 Allan                01-AUG-04           253
+        159 Lindsey              10-MAR-05           245
+        160 Louise               15-DEC-05           236
+        161 Sarath               03-NOV-06           226
+        162 Clara                11-NOV-05           237
+        163 Danielle             19-MAR-07           221
+        164 Mattea               24-JAN-08           211
+        165 David                23-FEB-08           210
+
+EMPLOYEE_ID FIRST_NAME           HIRE_DATE MONTHS_WORKED
+----------- -------------------- --------- -------------
+        166 Sundar               24-MAR-08           209
+        167 Amit                 21-APR-08           208
+        168 Lisa                 11-MAR-05           245
+        169 Harrison             23-MAR-06           233
+        170 Tayler               24-JAN-06           235
+        171 William              23-FEB-07           222
+        172 Elizabeth            24-MAR-07           221
+        173 Sundita              21-APR-08           208
+        174 Ellen                11-MAY-04           255
+        175 Alyssa               19-MAR-05           245
+        176 Jonathon             24-MAR-06           233
+
+EMPLOYEE_ID FIRST_NAME           HIRE_DATE MONTHS_WORKED
+----------- -------------------- --------- -------------
+        177 Jack                 23-APR-06           232
+        178 Kimberely            24-MAY-07           219
+        179 Charles              04-JAN-08           212
+        180 Winston              24-JAN-06           235
+        181 Jean                 23-FEB-06           234
+        182 Martha               21-JUN-07           218
+        183 Girard               03-FEB-08           211
+        184 Nandita              27-JAN-04           259
+        185 Alexis               20-FEB-05           246
+        186 Julia                24-JUN-06           230
+        187 Anthony              07-FEB-07           222
+
+EMPLOYEE_ID FIRST_NAME           HIRE_DATE MONTHS_WORKED
+----------- -------------------- --------- -------------
+        188 Kelly                14-JUN-05           242
+        189 Jennifer             13-AUG-05           240
+        190 Timothy              11-JUL-06           229
+        191 Randall              19-DEC-07           212
+        192 Sarah                04-FEB-04           259
+        193 Britney              03-MAR-05           246
+        194 Samuel               01-JUL-06           230
+        195 Vance                17-MAR-07           221
+        196 Alana                24-APR-06           232
+        197 Kevin                23-MAY-06           231
+        198 Donald               21-JUN-07           218
+
+EMPLOYEE_ID FIRST_NAME           HIRE_DATE MONTHS_WORKED
+----------- -------------------- --------- -------------
+        199 Douglas              13-JAN-08           211
+        200 Jennifer             17-SEP-03           263
+        201 Michael              17-FEB-04           258
+        202 Pat                  17-AUG-05           240
+        203 Susan                07-JUN-02           278
+        204 Hermann              07-JUN-02           278
+        205 Shelley              07-JUN-02           278
+        206 William              07-JUN-02           278
+
+107 rows selected. 
+
+Q10 Output:
+
+SUBST
+-----
+Abel
+Ande
+Atkin
+Austi
+Baer
+Baida
+Banda
+Bates
+Bell
+Berns
+Bisso
+
+SUBST
+-----
+Bloom
+Bull
+Cabri
+Cambr
+Cambr
+Chen
+Chung
+Colme
+Davie
+De Ha
+Delli
+
+SUBST
+-----
+Dilly
+Doran
+Ernst
+Erraz
+Evere
+Favie
+Fay
+Feene
+Fleau
+Fox
+Fripp
+
+SUBST
+-----
+Gates
+Gee
+Geoni
+Gietz
+Grant
+Grant
+Green
+Green
+Hall
+Harts
+Higgi
+
+SUBST
+-----
+Himur
+Hunol
+Hutto
+Johns
+Jones
+Kaufl
+Khoo
+King
+King
+Kochh
+Kumar
+
+SUBST
+-----
+Ladwi
+Landr
+Lee
+Livin
+Loren
+Malli
+Markl
+Marlo
+Marvi
+Matos
+Mavri
+
+SUBST
+-----
+McCai
+McEwe
+Mikki
+Mourg
+Nayer
+OConn
+Olsen
+Olson
+Ozer
+Partn
+Patab
+
+SUBST
+-----
+Patel
+Perki
+Philt
+Popp
+Rajs
+Rapha
+Roger
+Russe
+Sarch
+Sciar
+Seo
+
+SUBST
+-----
+Sewal
+Smith
+Smith
+Stile
+Sulli
+Sully
+Taylo
+Taylo
+Tobia
+Tucke
+Tuvau
+
+SUBST
+-----
+Urman
+Varga
+Vishn
+Vollm
+Walsh
+Weiss
+Whale
+Zlotk
+
+107 rows selected. 
+

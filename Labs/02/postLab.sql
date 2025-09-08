@@ -1,5 +1,4 @@
 spool postLabOutput.txt
---Q20. Find the department that has the maximum number of employees.
 prompt Q11 Output: 
 select lpad(first_name, 15, '*') from employees;
 --Q12
@@ -26,7 +25,7 @@ select * from (select department_id, count(employee_id) as numEmployees from emp
 --Q19
 prompt Q19 Output: 
 select * from (select department_id, sum(salary) as salaryBudget from employees group by department_id order by salaryBudget desc) where rownum <= 3;
---Q2
+--Q20
 prompt Q20 Output:
 select * from (select department_id, count(employee_id) as numEmployees from employees group by department_id order by numEmployees desc) where rownum = 1;
 spool off

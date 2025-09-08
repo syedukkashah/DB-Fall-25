@@ -1,0 +1,89 @@
+Q1 Output:
+
+Table EMPLOYEES created.
+
+no rows selected
+Q2 Output:
+
+Table EMPLOYEES altered.
+
+no rows selected
+Q3 Output:
+
+Table EMPLOYEES altered.
+
+
+1 row inserted.
+
+
+    EMP_ID FULL_NAME                                              SALARY    DEPT_ID
+---------- -------------------------------------------------- ---------- ----------
+     10000 Syed Ukkashah                                            5000        100
+
+Q4 Output:
+
+Table DEPARTMENTS created.
+
+
+3 rows inserted.
+
+
+   DEPT_ID DEPT_NAME                                         
+---------- --------------------------------------------------
+        90 Finance                                           
+       100 Security                                          
+        60 IT                                                
+
+Q5 Output:
+
+Table EMPLOYEES altered.
+
+
+Table EMPLOYEES altered.
+
+Q6 Output:
+
+Table EMPLOYEES altered.
+
+
+    EMP_ID FULL_NAME                                              SALARY    DEPT_ID      BONUS
+---------- -------------------------------------------------- ---------- ---------- ----------
+     10000 Syed Ukkashah                                            5000        100       1000
+
+Q7 Output:
+
+Table EMPLOYEES altered.
+
+
+Table EMPLOYEES altered.
+
+
+Table EMPLOYEES altered.
+
+
+    EMP_ID FULL_NAME                                              SALARY    DEPT_ID      BONUS CITY                                                      AGE
+---------- -------------------------------------------------- ---------- ---------- ---------- -------------------------------------------------- ----------
+     10000 Syed Ukkashah                                            5000        100       1000 Karachi                                                      
+
+Q8 Output:
+
+2 rows deleted.
+
+
+   DEPT_ID DEPT_NAME                                         
+---------- --------------------------------------------------
+       100 Security                                          
+
+Q9 Output:
+
+Table EMPLOYEES altered.
+
+Q10 Output:
+
+Table EMPLOYEES altered.
+
+
+    EMP_ID FULL_NAME                SALARY    DEPT_ID      BONUS CITY                        AGE EMAIL                                             
+---------- -------------------- ---------- ---------- ---------- -------------------- ---------- --------------------------------------------------
+     10000 Syed Ukkashah              5000        100       1000 Karachi                                                                           
+

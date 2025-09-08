@@ -1,0 +1,541 @@
+Q11 Output:
+
+LPAD(FIRST_NAME
+---------------
+**********Ellen
+*********Sundar
+**********Mozhe
+**********David
+********Hermann
+*********Shelli
+***********Amit
+******Elizabeth
+**********Sarah
+**********David
+**********Laura
+
+LPAD(FIRST_NAME
+---------------
+*******Harrison
+*********Alexis
+********Anthony
+*********Gerald
+********Nanette
+***********John
+**********Kelly
+**********Karen
+*********Curtis
+************Lex
+**********Julia
+
+LPAD(FIRST_NAME
+---------------
+*******Jennifer
+*********Louise
+**********Bruce
+********Alberto
+********Britney
+*********Daniel
+************Pat
+**********Kevin
+***********Jean
+*********Tayler
+***********Adam
+
+LPAD(FIRST_NAME
+---------------
+********Timothy
+*************Ki
+*********Girard
+********William
+********Douglas
+******Kimberely
+**********Nancy
+*******Danielle
+**********Peter
+********Michael
+********Shelley
+
+LPAD(FIRST_NAME
+---------------
+************Guy
+******Alexander
+*********Alyssa
+********Charles
+**********Vance
+**********Payam
+******Alexander
+********Janette
+*********Steven
+**********Neena
+********Sundita
+
+LPAD(FIRST_NAME
+---------------
+*********Renske
+**********James
+**********David
+***********Jack
+**********Diana
+**********Jason
+*********Steven
+**********James
+*********Mattea
+********Randall
+**********Susan
+
+LPAD(FIRST_NAME
+---------------
+*********Samuel
+**********Allan
+**********Irene
+**********Kevin
+**********Julia
+*********Donald
+****Christopher
+*************TJ
+***********Lisa
+**********Karen
+**********Valli
+
+LPAD(FIRST_NAME
+---------------
+*********Joshua
+********Randall
+**********Hazel
+***********Luis
+*********Trenna
+************Den
+********Michael
+***********John
+********Nandita
+*********Ismael
+***********John
+
+LPAD(FIRST_NAME
+---------------
+*********Sarath
+********Lindsey
+********William
+********Stephen
+*********Martha
+********Patrick
+*******Jonathon
+********Winston
+**********Sigal
+**********Peter
+*********Oliver
+
+LPAD(FIRST_NAME
+---------------
+****Jose Manuel
+**********Peter
+**********Clara
+*********Shanta
+**********Alana
+********Matthew
+*******Jennifer
+**********Eleni
+
+107 rows selected. 
+
+Q12 Output:
+
+TRIM('
+------
+Oracle
+
+Q13 Output:
+
+FIRSTNAME            LASTNAME                 
+-------------------- -------------------------
+Ellen                Abel                     
+Sundar               Ande                     
+Mozhe                Atkinson                 
+David                Austin                   
+Hermann              Baer                     
+Shelli               Baida                    
+Amit                 Banda                    
+Elizabeth            Bates                    
+Sarah                Bell                     
+David                Bernstein                
+Laura                Bissot                   
+
+FIRSTNAME            LASTNAME                 
+-------------------- -------------------------
+Harrison             Bloom                    
+Alexis               Bull                     
+Anthony              Cabrio                   
+Gerald               Cambrault                
+Nanette              Cambrault                
+John                 Chen                     
+Kelly                Chung                    
+Karen                Colmenares               
+Curtis               Davies                   
+Lex                  De Haan                  
+Julia                Dellinger                
+
+FIRSTNAME            LASTNAME                 
+-------------------- -------------------------
+Jennifer             Dilly                    
+Louise               Doran                    
+Bruce                Ernst                    
+Alberto              Errazuriz                
+Britney              Everett                  
+Daniel               Faviet                   
+Pat                  Fay                      
+Kevin                Feeney                   
+Jean                 Fleaur                   
+Tayler               Fox                      
+Adam                 Fripp                    
+
+FIRSTNAME            LASTNAME                 
+-------------------- -------------------------
+Timothy              Gates                    
+Ki                   Gee                      
+Girard               Geoni                    
+William              Gietz                    
+Douglas              Grant                    
+Kimberely            Grant                    
+Nancy                Greenberg                
+Danielle             Greene                   
+Peter                Hall                     
+Michael              Hartstein                
+Shelley              Higgins                  
+
+FIRSTNAME            LASTNAME                 
+-------------------- -------------------------
+Guy                  Himuro                   
+Alexander            Hunold                   
+Alyssa               Hutton                   
+Charles              Johnson                  
+Vance                Jones                    
+Payam                Kaufling                 
+Alexander            Khoo                     
+Janette              King                     
+Steven               King                     
+Neena                Kochhar                  
+Sundita              Kumar                    
+
+FIRSTNAME            LASTNAME                 
+-------------------- -------------------------
+Renske               Ladwig                   
+James                Landry                   
+David                Lee                      
+Jack                 Livingston               
+Diana                Lorentz                  
+Jason                Mallin                   
+Steven               Markle                   
+James                Marlow                   
+Mattea               Marvins                  
+Randall              Matos                    
+Susan                Mavris                   
+
+FIRSTNAME            LASTNAME                 
+-------------------- -------------------------
+Samuel               Mccain                   
+Allan                Mcewen                   
+Irene                Mikkilineni              
+Kevin                Mourgos                  
+Julia                Nayer                    
+Donald               Oconnell                 
+Christopher          Olsen                    
+Tj                   Olson                    
+Lisa                 Ozer                     
+Karen                Partners                 
+Valli                Pataballa                
+
+FIRSTNAME            LASTNAME                 
+-------------------- -------------------------
+Joshua               Patel                    
+Randall              Perkins                  
+Hazel                Philtanker               
+Luis                 Popp                     
+Trenna               Rajs                     
+Den                  Raphaely                 
+Michael              Rogers                   
+John                 Russell                  
+Nandita              Sarchand                 
+Ismael               Sciarra                  
+John                 Seo                      
+
+FIRSTNAME            LASTNAME                 
+-------------------- -------------------------
+Sarath               Sewall                   
+Lindsey              Smith                    
+William              Smith                    
+Stephen              Stiles                   
+Martha               Sullivan                 
+Patrick              Sully                    
+Jonathon             Taylor                   
+Winston              Taylor                   
+Sigal                Tobias                   
+Peter                Tucker                   
+Oliver               Tuvault                  
+
+FIRSTNAME            LASTNAME                 
+-------------------- -------------------------
+Jose Manuel          Urman                    
+Peter                Vargas                   
+Clara                Vishney                  
+Shanta               Vollman                  
+Alana                Walsh                    
+Matthew              Weiss                    
+Jennifer             Whalen                   
+Eleni                Zlotkey                  
+
+107 rows selected. 
+
+Q14 Output:
+
+NEXT_DAY(
+---------
+22-AUG-22
+
+Q15 Output:
+
+MYDATE 
+-------
+12-2023
+
+Q16 Output:
+
+  SALARIES
+----------
+      2100
+      2200
+      2400
+      2500
+      2600
+      2700
+      2800
+      2900
+      3000
+      3100
+      3200
+
+  SALARIES
+----------
+      3300
+      3400
+      3500
+      3600
+      3800
+      3900
+      4000
+      4100
+      4200
+      4400
+      4800
+
+  SALARIES
+----------
+      5800
+      6000
+      6100
+      6200
+      6400
+      6500
+      6800
+      6900
+      7000
+      7200
+      7300
+
+  SALARIES
+----------
+      7400
+      7500
+      7700
+      7800
+      7900
+      8000
+      8200
+      8300
+      8400
+      8600
+      8800
+
+  SALARIES
+----------
+      9000
+      9500
+      9600
+     10000
+     10500
+     11000
+     11500
+     12000
+     12008
+     13000
+     13500
+
+  SALARIES
+----------
+     14000
+     17000
+     24000
+
+58 rows selected. 
+
+Q17 Output:
+
+ROUNDED_SALARIES
+----------------
+           24000
+           17000
+           17000
+            9000
+            6000
+            4800
+            4800
+            4200
+           12000
+            9000
+            8200
+
+ROUNDED_SALARIES
+----------------
+            7700
+            7800
+            6900
+           11000
+            3100
+            2900
+            2800
+            2600
+            2500
+            8000
+            8200
+
+ROUNDED_SALARIES
+----------------
+            7900
+            6500
+            5800
+            3200
+            2700
+            2400
+            2200
+            3300
+            2800
+            2500
+            2100
+
+ROUNDED_SALARIES
+----------------
+            3300
+            2900
+            2400
+            2200
+            3600
+            3200
+            2700
+            2500
+            3500
+            3100
+            2600
+
+ROUNDED_SALARIES
+----------------
+            2500
+           14000
+           13500
+           12000
+           11000
+           10500
+           10000
+            9500
+            9000
+            8000
+            7500
+
+ROUNDED_SALARIES
+----------------
+            7000
+           10000
+            9500
+            9000
+            8000
+            7500
+            7000
+           10500
+            9500
+            7200
+            6800
+
+ROUNDED_SALARIES
+----------------
+            6400
+            6200
+           11500
+           10000
+            9600
+            7400
+            7300
+            6100
+           11000
+            8800
+            8600
+
+ROUNDED_SALARIES
+----------------
+            8400
+            7000
+            6200
+            3200
+            3100
+            2500
+            2800
+            4200
+            4100
+            3400
+            3000
+
+ROUNDED_SALARIES
+----------------
+            3800
+            3600
+            2900
+            2500
+            4000
+            3900
+            3200
+            2800
+            3100
+            3000
+            2600
+
+ROUNDED_SALARIES
+----------------
+            2600
+            4400
+           13000
+            6000
+            6500
+           10000
+           12000
+            8300
+
+107 rows selected. 
+
+Q18 Output:
+
+DEPARTMENT_ID NUMEMPLOYEES
+------------- ------------
+           50           45
+
+Q19 Output:
+
+DEPARTMENT_ID SALARYBUDGET
+------------- ------------
+           80       304500
+           50       156400
+           90        58000
+
+Q20 Output:
+
+DEPARTMENT_ID NUMEMPLOYEES
+------------- ------------
+           50           45
+

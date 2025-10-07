@@ -33,7 +33,7 @@ select brand_name, model, rating from phones where rating is not null order by b
 select brand_name, model, price from phones order by brand_name,price;
 
 --grouping 
-select brand_name, count(*) as num_phones, round(avg(price), 2) as average_price, max(rating) as max_`rating, round(avg(screen_size), 2) as average_screen_size, 
+select brand_name, count(*) as num_phones, round(avg(price), 2) as average_price, max(rating) as max_rating, round(avg(screen_size), 2) as average_screen_size, 
 round(avg(battery_capacity), 2)as average_battery_capacity from phones group by brand_name order by num_phones desc;
 
 --group by has_nfc and get avg price and avg rating

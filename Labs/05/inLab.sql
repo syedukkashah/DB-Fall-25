@@ -12,7 +12,8 @@ select t1.emp_name as employee, t2.emp_name as manager from emps t1 join emps t2
 select * from emps where emp_id not in (select emp_id from emp_project);
 
 --Q5
-select s.student_name, c.course_name from st s join enrolls e on s.student_id = e.student_id join crs c on e.course_id = c.course_id;
+select s.student_name, c.course_name from st s join enrolls e on s.student_id = e.student_id 
+        join crs c on e.course_id = c.course_id;
 
 --Q6
 select * from custs c left join order_table o on c.cust_id = o.cust_id;
